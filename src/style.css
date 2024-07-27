@@ -24,3 +24,10 @@ body{
 .cartaSombra {
     box-shadow: 10px 5px 5px black;
 }
+.randomButton:active{
+    border-bottom: 3px solid #999;
+    top: 3px;
+}
+.randomButton:hover{
+    background-color: grey;
+}
