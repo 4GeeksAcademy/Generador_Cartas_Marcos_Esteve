@@ -15,3 +15,14 @@ function randomCard() {
     }
   }
 }
+function timeGenerator() {
+  setInterval(randomCard, 3000);
+}
+
+function changeHeight() {
+  let valorRango = document.getElementById("customRange1");
+  let valueHeight = document.querySelectorAll(".cartasHeight");
+  for (let j = 0; j < valueHeight.length; j++) {
+    valueHeight[j].style.height = valorRango.value + "px";
+  }
+}
